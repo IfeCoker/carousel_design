@@ -10,35 +10,37 @@
 </head>
 <body>
     <h2>A Carousel Of Cities</h2>
-    <div class="carousel-container"> 
-        <div class="slides fade">
-            <div class="number">1 / 6</div>
-            <img src="img1.jpg" alt="slide1">
+    
+        <div class="carousel-container">
+            <div class="slides-container">
+                <div class="slides fade">
+                    <div class="number">1 / 6</div>
+                    <img src="img1.jpg" alt="slide1">
+                </div>
+                <div class="slides fade">
+                    <div class="number">2 / 6</div>
+                    <img src="img2.jpg" alt="slide2">
+                </div>
+                <div class="slides fade">
+                    <div class="number">3 / 6</div>
+                    <img src="img3.jpg" alt="slide3">
+                </div>
+                <div class="slides fade">
+                    <div class="number">4 / 6</div>
+                    <img src="img4.jpg" alt="slide4">
+                </div>
+                <div class="slides fade">
+                    <div class="number">5 / 6</div>
+                    <img src="img5.jpg" alt="slide5">
+                </div>
+                <div class="slides fade">
+                    <div class="number">6 / 6</div>
+                    <img src="img6.jpg" alt="slide6">
+                </div>
+                <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+                <a class="next" onclick="nextSlide(1)">&#10095;</a>
+            </div>       
         </div>
-        <div class="slides fade">
-            <div class="number">2 / 6</div>
-            <img src="img2.jpg" alt="slide2">
-        </div>
-        <div class="slides fade">
-            <div class="number">3 / 6</div>
-            <img src="img3.jpg" alt="slide3">
-        </div>
-        <div class="slides fade">
-            <div class="number">4 / 6</div>
-            <img src="img4.jpg" alt="slide4">
-        </div>
-        <div class="slides fade">
-            <div class="number">5 / 6</div>
-            <img src="img5.jpg" alt="slide5">
-        </div>
-        <div class="slides fade">
-            <div class="number">6 / 6</div>
-            <img src="img6.jpg" alt="slide6">
-        </div>
-
-        <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
-        <a class="next" onclick="nextSlide(1)">&#10095;</a>
-    </div>
     <br>
     <div class="dotIndicator">
         <span class="dot" onclick="presentSlide(1)"></span>
@@ -48,7 +50,7 @@
         <span class="dot" onclick="presentSlide(5)"></span>
         <span class="dot" onclick="presentSlide(6)"></span>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
